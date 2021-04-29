@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+}
+
+.main {
+  width: 100%;
+  height: 18vh;
+  position: relative;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 5px 10px 30px rgba(0,0, 0, 0.03);
+  z-index: 1;
+}
+
+.navigator {
+  height: 78px;
+}
+
+
+.logo img {
+  height: 50px;
+  padding-right: 90px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.attributes {
+  padding-left: 50px; 
+}
+
+.attributes li a {
+  display: flex;
+  padding: 20px 25px;
+  height: 22px;
+  line-height: 45px;
+  margin: 2px;
+  font-size: 0.7 em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1;
+  color: gray;
+  align-items: center;
+}
+ 
+a {
+  text-decoration: none;
+}
+
+.hey {
+  color: #39bfbd;
+  font-weight: 500;
+  font-size: 1.1em;
+  border-bottom: 2px solid #39bfbd;
+
+}
+
+.rock-img {
+  width: 500px;
+  height: 500px;
+
+}
+
+.rock-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  box-shadow: 5px 10px 30px rgba(7, 7, 7, 0.1);
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  padding-left: 125px;
+}
+
+.main-text {
+  width: 500px;
+  padding-left: 100px;
+  align-items: center;
+}
+
+.main-text h1 {
+  font-size: 3.5em;
+  color: #1c3548;
+  margin: 0px 0px 10px 0px;
+  line-height: 60px;
+  
+}
+
+.main-text p {
+  width: 600px;
+  color: grey;
+}
+
+
+.clickme button{
+  width: 190px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  background-color: #1db096;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px rgba(24, 60, 139, 0.2);
+  pointer-events: fill;
+}
+
+button {
+  border: none;
+}
+
+.clickme :hover {
+  background-color: #23cdaf;
+  transition: all ease 0.2;
+}
+
+.attributes :hover {
+  background-color: #23cdaf;
+  color: white;
+  transition: all ease 0.2;
+  border-radius: 10px;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+}
+
+
